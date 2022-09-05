@@ -77,16 +77,9 @@ const HomeDemo1Container = () => {
           OurJoinUsSecond={OurJoinUsSecond}
         />
         <AboutOther />
-        <SecTrust data={SecTrustContent} />
         <OurServices data={Services} />
         <SmartContract data={SmartContractinfo} />
-        <OurPlatform data={PlatformIco} />
         <div className="clearfix" />
-        <Features2
-            icoCounterClass="ico-counter mb-30"
-            Features2InfoTop={Features2InfoTop}
-            Features2InfoDown={Features2InfoDown}
-        />
         <Faq data={FaqInfo} />
         <OurTeam data={OurTeamInfo} />
         <Subscribe />
