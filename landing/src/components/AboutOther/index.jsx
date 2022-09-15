@@ -6,18 +6,16 @@ const AboutOther = ({ClassTitle="gradient-text blue"}) => {
 
   return (
 
-    <section className="about-us-area section-padding-0-100 clearfix">
+    <section className="about-us-area section-padding-0-100 clearfix" id="token">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-lg-6 offset-lg-0">
             <div className="who-we-contant">
               <div className="dream-dots text-left fadeInUp" data-aos="fade-up" data-aos-delay="200">
-                <span className={ClassTitle}>Decentralized Trading Platform</span>
+                <span className={ClassTitle}>Powered by our Native Token</span>
               </div>
-              <h4 className="fadeInUp" data-aos="fade-up" data-aos-delay="200">Connect blockchain to the real world and start crypto tading.</h4>
-              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.</p>
-              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsa ut quasi adipisci voluptates, voluptatibus aliquid alias beatae reprehenderit incidunt iusto laboriosam.</p>
-              <a className="btn more-btn mt-30" href="#">Read More</a>
+              <h4 className="fadeInUp" data-aos="fade-up" data-aos-delay="200">vFI ensures fair usage</h4>
+              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="200">The platform is governed by a DAO, which consists of every vFI holder. It punishes malicious behavior and exploitation attempts, while rewarding everyone playing fair. vFI is being minted accordingly to the size of the platform to ensure a sustainable development.</p>
             </div>
           </div>
           <div className="col-12 col-lg-6 offset-lg-0 col-md-12 mt-30 no-padding-left">

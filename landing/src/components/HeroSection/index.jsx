@@ -4,21 +4,12 @@ const SecHeroSection = ({
       specialHead="",
       title="",
       link1="",
-      link2="",
       img="",
       HomeDemo1Or3Or4Or5Or6=true,
       HomeDemo1Or4Or5Or6=true,
 
     }) => {
 
-      // AbsoImgInfo="",
-      // AddWrapper=false,
-      // HomeDemo1=false,
-      // HomeDemo2=false,
-      // HomeDemo3=false,
-      // HomeDemo4=false,
-      // HomeDemo5=false,
-      // HomeDemo6=false
 
   return (
     <section className={ClassSec} id="home">
@@ -31,10 +22,10 @@ const SecHeroSection = ({
                   <h3 className="special-head dark">{specialHead}</h3>
                 </div>
                 <h1>{title}</h1>
-                <p className="w-text fadeInUp" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem blanditiis ad perferendis, labore delectus dolor sit amet, adipisicing elit. Eveniet.</p>
+                <p className="w-text fadeInUp" data-wow-delay="0.3s">Make your vacant belongings work for you, while being able to use what you need when you need it.
+Get ready for a new shared economy in which possessions are optional. </p>
                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s">
-                  <a href="#" className="btn more-btn mr-3">{link1}</a>
-                  <a href="#" className="btn more-btn">{link2}</a>
+                  <a href="https://twitter.com/fi_everything" className="btn more-btn mr-3">{link1}</a>
                 </div>
               </div>
             </div>

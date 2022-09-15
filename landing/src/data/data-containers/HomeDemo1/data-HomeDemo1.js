@@ -1,11 +1,6 @@
 import {
-    HomeDemo1Platforms1,
-    HomeDemo1Platforms2,
-    HomeDemo1Platforms3,
-    HomeDemo1Platforms4,
-    HomeDemo1Platforms5,
-    HomeDemo1Platforms6,
-
+    HomeDemo1BlogImg1,
+    HomeDemo1BlogImg2,
     HomeDemo1Feature1,
     HomeDemo1Feature2,
     HomeDemo1Feature3,
@@ -14,28 +9,24 @@ import {
     HomeDemo1Feature6,
     HomeDemo1Feature7,
     HomeDemo1Feature8,
-
-    HomeDemo1FeaturesS1,
-    HomeDemo1FeaturesS2,
-    HomeDemo1FeaturesS3,
-    HomeDemo1FeaturesS4,
-
     HomeDemo1FeaturesF1,
     HomeDemo1FeaturesF2,
     HomeDemo1FeaturesF3,
     HomeDemo1FeaturesF4,
     HomeDemo1FeaturesF5,
     HomeDemo1FeaturesF6,
-
+    HomeDemo1FeaturesS1,
+    HomeDemo1FeaturesS2,
+    HomeDemo1FeaturesS3,
+    HomeDemo1FeaturesS4,
+    HomeDemo1Platforms1,
+    HomeDemo1Platforms2,
+    HomeDemo1Platforms3,
+    HomeDemo1Platforms4,
+    HomeDemo1Platforms5,
+    HomeDemo1Platforms6,
     HomeDemo1TeamImg1,
     HomeDemo1TeamImg2,
-    HomeDemo1TeamImg3,
-    HomeDemo1TeamImg4,
-
-    HomeDemo1BlogImg1,
-    HomeDemo1BlogImg2,
-    HomeDemo1BlogImg3,
-
 } from '../../../utils/allImgs'
 
 export const SecTrustContent = [
@@ -158,37 +149,33 @@ export const Features2InfoDown = [
 export const OurTeamInfo = [
     {
         img:HomeDemo1TeamImg1,
-        title:"Joman Helal",
-        text:"Executive Officer"
+        title:"Wadim Smuda",
+        text:" Co-Founder & CEO",
+        link: "https://www.linkedin.com/in/wadims/"
     },
     {
         img:HomeDemo1TeamImg2,
-        title:"Slans Alons",
-        text:"Business Development"
+        title:"Grzegorz Łucki",
+        text:"Co-Founder & CTO",
+        link: "https://www.linkedin.com/in/grzegorz-lucki/"
     },
-    {
-        img:HomeDemo1TeamImg3,
-        title:"Josha Michal",
-        text:"UX/UI Designer"
-    },
-    {
-        img:HomeDemo1TeamImg4,
-        title:"Johan Wright",
-        text:"Head of Marketing"
-    }
 ]
 
 export const OurBlogInfo = [
     {
         img:HomeDemo1BlogImg1,
-        title:"What is this Token for?."
+        author: "Wadim",
+        date: "Sep 14, 2022",
+        title:"Rent or Borrow Anything with everything.fi",
+        text: "What if we’d tell you, that soon you don’t need to own anything while still being able to use everything?",
+        link: "https://medium.com/@wadim_20709/rent-or-borrow-anything-with-everything-fi-ecf015a0e851"
     },
     {
         img:HomeDemo1BlogImg2,
-        title:"The most powerful Token"
+        author: "Wadim",
+        date: "Sep 14, 2022",
+        title:"Creating a new shared economy",
+        text: "Since the beginning of the pandemic in 2020 everyone knew that the world, we live in went into a next phase of development.",
+        link: "https://medium.com/@wadim_20709/creating-a-new-shared-economy-dd1edcb7f276"
     },
-    {
-        img:HomeDemo1BlogImg3,
-        title:"How to get trial version"
-    }
 ]

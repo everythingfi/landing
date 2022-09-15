@@ -4,6 +4,7 @@
     color: #fff;
     font-size: 25px;
     font-weight: 600;
+    max-width: 200px;
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0
@@ -140,7 +141,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
  .shrink {
     animation: .3s ease-in-out;
     animation-name: fadeInDown;
-    background-color: rgb(215, 223, 239);
+    background-color: rgb(138, 139, 141);
 }
 
 @-webkit-keyframes fadeInDown {

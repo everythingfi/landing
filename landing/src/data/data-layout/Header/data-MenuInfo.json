@@ -1,22 +1,26 @@
 [
 	{
+		"path":"#home",
+		"nameLink":"Home"
+	},
+	{
 		"path":"#about",
-		"nameLink":"About Us"
+		"nameLink":"About"
 	},
 	{
 		"path":"#services",
 		"nameLink":"Services"
 	},
 	{
-		"path":"#faq",
-		"nameLink":"FAQ"
+		"path":"#token",
+		"nameLink":"Token"
 	},
 	{
-		"path":"#roadmap",
-		"nameLink":"Roadmap"
+		"path":"#team",
+		"nameLink":"Team"
 	},
 	{
-		"path":"#contact",
-		"nameLink":"Contact"
+		"path":"#blog",
+		"nameLink":"Blog"
 	}
 ]

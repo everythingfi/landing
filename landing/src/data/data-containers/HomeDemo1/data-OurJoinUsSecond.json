@@ -5,21 +5,24 @@
         "ClassDown":"contribution-c-wapper has-arrow-left-lg has-arrow-bottom-md has-arrow-down-sm",
         "ClassSteps":"gradient-t green",
         "Steps":6,
-        "title":"Creative Chart Modules"
+        "title":"Control the Economy",
+        "text": "The DAO is responsible for key metrics of token distribution and protocol governance"
     },
     {
         "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
         "ClassDown":"contribution-c-wapper has-arrow-left-lg has-arrow-left-md has-arrow-down-sm",
         "ClassSteps":"gradient-t green",
         "Steps":5,
-        "title":"Adaptive Social Assistant"
+        "title":"Solve a dispute",
+        "text": "If any conflict occurs, the dispute will be solved by the community"
     },
     {
         "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
         "ClassDown":"contribution-c-wapper ",
         "ClassSteps":"gradient-t pink",
         "Steps":4,
-        "title":"Ecommerce Embedded"
+        "title":"Return the Item",
+        "text": "Once both parties sign that the items were returned under the agreed conditions, the stake returns to the borrower"
     }
 
 ]

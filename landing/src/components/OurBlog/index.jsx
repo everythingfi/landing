@@ -3,7 +3,6 @@ import SectionHeading from "../SectionHeading"
 const OurBlog = ({data , ClassSpanTitle}) => {
 
     return (
-
       <section className="our_blog_area clearfix section-padding-100-0" id="blog">
         <div className="container">
           <div className="row">
@@ -28,13 +27,13 @@ const OurBlog = ({data , ClassSpanTitle}) => {
                   <div className="blog-content">
                     {/* Dream Dots */}
                     <div className="post-meta mt-20">
-                      <p>By <a href="#" className="post-author">ADMIN</a> <a href="#">Apr 10, 2018</a> <a href="#" className="post-comments">7 comments</a></p>
+                      <p>By <a href="#" className="post-author">{item.author}</a> <a href="#">{item.date}</a></p>
                     </div>
                     <a href="#" className="post-title">
                       <h4>{item.title}</h4>
                     </a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat at vitae, ratione sapiente repellat.</p>
-                    <a href="#" className="btn more-btn mt-15">Read Details</a>
+                    <p>{item.text}</p>
+                    <a href={item.link} className="btn more-btn mt-15">Read Details</a>
                   </div>
                 </div>
               </div>
