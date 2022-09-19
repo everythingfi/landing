@@ -1,4 +1,7 @@
+import { orderBy } from 'lodash';
 import { useEffect } from "react";
+import {isMobile} from 'react-device-detect';
+
 import AboutOther from '../../components/AboutOther'
 
 import SecHeroSection from '../../components/HeroSection'
@@ -27,6 +30,8 @@ const HomeContainer = () => {
       addRemoveClassBody('darker')
     },[])
 
+    const OurJoinUsSecondList = isMobile ? orderBy(OurJoinUsSecond, 'Steps') : OurJoinUsSecond;
+
     return (
       <div>
         <Header Title="Everything.fi" />
@@ -47,7 +52,7 @@ const HomeContainer = () => {
         />
         <JoinUs
           OurJoinUsFirst={OurJoinUsFirst}
-          OurJoinUsSecond={OurJoinUsSecond}
+          OurJoinUsSecond={OurJoinUsSecondList}
         />
         <AboutOther />
         <OurTeam data={OurTeamInfo} />
